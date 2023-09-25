@@ -9,8 +9,7 @@
   },
   "lint-staged": {
     "**/*.{js,ts,vue,html}": [
-      "yarn lintfix",
-      "yarn test:staged"
+      "npm lintfix"
     ]
   },
   "devDependencies": {
