@@ -1,6 +1,6 @@
-const Feature = ({ title, icon, description, color }) => {
+const Card = ({ title, icon, description, color }) => {
   return (
-    <div>
+    <div className="px-4-5 py-3">
       <div className={`d-inline-flex rounded-icon ${color}`}>
         <img className="icon m-auto" src={icon} alt="logo" />
       </div>
@@ -12,4 +12,4 @@ const Feature = ({ title, icon, description, color }) => {
   );
 };
 
-export default Feature;
+export default Card;

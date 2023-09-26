@@ -1,0 +1,49 @@
+.navbar-scroll {
+    --bs-scroll-height: 100px;
+  }
+  
+.navbar-bg {
+    background-color: var(--primary-color) !important;
+}
+
+@media (min-width: 300px) {
+    .navbar-gap {
+        padding-right: 1.2rem !important;
+    } 
+}
+
+@media (min-width: 991px) {
+    .navbar-gap {
+        padding-right: 16.2rem !important;
+    } 
+}
+
+@media (min-width: 1360px) {
+    .navbar-gap {
+        padding-right: 25.0rem !important;
+    } 
+  }
+
+@media (min-width: 2000px) {
+    .navbar-gap {
+        padding-right: 90rem !important;
+    } 
+}
+
+.navbar-text-primary {
+    font-size: 0.85rem !important;
+    color: var(--primary-text) !important;
+}
+
+.navbar-text-secondary {
+    font-size: 0.85rem !important;
+    color: var(--secondary-text) !important;
+}
+
+.custom-dropdown.show {
+    background-color: var(--bs-secondary-bg-subtle) !important;
+}
+
+.custom-dropdown.collapsing {
+    background-color: var(--bs-secondary-bg-subtle) !important;
+}

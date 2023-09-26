@@ -1,0 +1,8 @@
+.btn {
+    border-radius: 20px !important;
+    color: var(--white) !important;
+}
+
+.button-primary {
+    background-color: var(--primary-color) !important; 
+}

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 :root {
   --primary-text: #444444;
   --secondary-text: #666666;
-  --white: ##FFFFFF;
+  --white: #FFFFFF;
   --primary-color: #1E69B8;
   --green-icon: #D7EDE7;
   --orange-icon: #FDEDD9;
@@ -10,9 +12,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
+  color: var(--primary-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,7 +29,7 @@ code {
 
 .fs-subtitle {
   font-size: 1.125rem !important;
-  color: var(--secondary-text);
+  color: var(--secondary-text) !important;
 }
 
 .fs-title {
@@ -37,6 +38,29 @@ code {
 }
 
 .fs-1 {
-    color: var(--primary-text);
+    color: var(--primary-text) !important;
 }
 
+.px-4-5 {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+
+.py-10 {
+  padding-top: 7.5rem !important;
+  padding-bottom: 7.5rem !important;
+}
+
+@media (min-width: 300px) {
+  .px-11 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .px-11 {
+    padding-right: 9.375rem !important;
+    padding-left: 9.375rem !important;
+  }
+}
