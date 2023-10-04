@@ -3,11 +3,14 @@
     color: #ffffff;
 }
 
-.carRepair-text {
-    font-size: 1.125rem !important;
-}
-
 .fs-6-car-repair {
     font-size: 1.125rem !important;
     color: var(--white);
+}
+
+@media only screen and (max-width: 800px) {
+    .img-car-repair {
+        margin-bottom: 30px;
+        /* display: none; */
+    }
 }
