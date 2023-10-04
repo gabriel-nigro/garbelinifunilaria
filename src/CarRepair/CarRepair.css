@@ -1,0 +1,13 @@
+.carRepair-title {
+    font-size: calc(2.75rem + 1.5vw) !important;
+    color: #ffffff;
+}
+
+.carRepair-text {
+    font-size: 1.125rem !important;
+}
+
+.fs-6 {
+    font-size: 1.125rem !important;
+    color: var(--white);
+}
