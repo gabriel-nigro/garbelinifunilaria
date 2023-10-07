@@ -1,6 +1,7 @@
 import Features from "./Features/index.js";
 import Navbar from "./Header/index.js";
 import Home from "./Home/index.js";
+import Services from "./Services/index.js"
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div className="py-10">
         <Features />
+      </div>
+      <div className="py-10">
+        <Services />
       </div>
     </div>
   );
