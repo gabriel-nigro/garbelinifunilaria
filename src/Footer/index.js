@@ -11,18 +11,6 @@ const Footer = () => {
                 <p className="footer-subtitle">All rights reserved</p>
             </div>
             <div className="col-3 footer-card px-1 d-flex flex-column align-items-start">
-                <p className="fs-2 mb-4">Quick Links</p>
-                <a href="http" className="footer-link mb-2">About us</a>
-                <a href="http" className="footer-link mb-2">Our services</a>
-                <a href="http" className="footer-link mb-2">Booking</a>
-                <a href="http" className="footer-link mb-2">News</a>
-                <a href="http" className="footer-link mb-2">Contact us</a>
-            </div>
-            <div className="col-3 footer-card px-1 d-flex flex-column align-items-start">
-                <p className="fs-2 mb-4">Maps</p>
-                <SimpleMap />
-            </div>
-            <div className="col-3 footer-card px-1 d-flex flex-column align-items-start">
                 <p className="fs-2 mb-4">Reach us</p>
                 <div className="mb-4 d-flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -42,6 +30,10 @@ const Footer = () => {
                     </svg>
                     <p className="footer-link ms-2">Rua José Zappi, 524 - Vila Prudente</p>
                 </div>
+            </div>
+            <div className="col-6 footer-card px-1 d-flex flex-column align-items-start">
+                <p className="fs-2 mb-4">Maps</p>
+                <SimpleMap />
             </div>
         </div>
     </div>
