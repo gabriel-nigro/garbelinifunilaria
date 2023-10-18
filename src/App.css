@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.carRepair {
+  background-color: #1E69B8;
+  color: #ffffff;
+  /* padding: 7.5rem 9.375rem; */
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}

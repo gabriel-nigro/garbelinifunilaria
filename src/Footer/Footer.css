@@ -1,0 +1,19 @@
+.footer-subtitle {
+    font-size: 0.875rem !important;
+    color: var(--white);
+}
+
+.footer-link {
+    font-size: 1rem !important;
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+.footer-title {
+    font-size: 1.5rem !important;
+    color: var(--white);
+}
+
+.footer-card {
+    min-height: 35vh;
+}

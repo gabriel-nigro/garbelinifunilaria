@@ -1,0 +1,16 @@
+.carRepair-title {
+    font-size: calc(2.75rem + 1.5vw) !important;
+    color: #ffffff;
+}
+
+.fs-6-car-repair {
+    font-size: 1.125rem !important;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 800px) {
+    .img-car-repair {
+        margin-bottom: 30px;
+        /* display: none; */
+    }
+}
