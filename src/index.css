@@ -4,6 +4,7 @@
   --primary-text: #444444;
   --secondary-text: #666666;
   --white: #FFFFFF;
+  --white-smoke: #F5F5F5;
   --primary-color: #1E69B8;
   --green-icon: #D7EDE7;
   --orange-icon: #FDEDD9;
@@ -63,4 +64,12 @@ code {
     padding-right: 9.375rem !important;
     padding-left: 9.375rem !important;
   }
+}
+
+.mb-6 {
+  margin-bottom: 4rem !important;
+}
+
+.secondary-bg {
+  background: var(--white-smoke);
 }
