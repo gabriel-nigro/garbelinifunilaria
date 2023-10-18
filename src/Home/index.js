@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="container" id="home">
       <div className="row">
-        <div className="col-7">
+        <div className="col-md-12 col-lg-7">
           <p className="fs-0 fw-bold zindex">Best Choice For Car Maintenance</p>
           <p className="fs-6 customPadding zindex">
             CarRepair provides the best service to you with experienced

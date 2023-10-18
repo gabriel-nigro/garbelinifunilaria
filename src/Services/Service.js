@@ -1,14 +1,10 @@
-const Service = ({title, icon}) => {
-    return (
-        <div className="px-5 py-5 col-12">
-            <div>
-                <img src={icon} alt="Service Icon" />
-            </div>
-            <div className="row">
-                <p className="fs-3 fw-bold text-break">{title}</p>
-            </div>
-        </div>
-    );
+const Service = ({ title, icon }) => {
+  return (
+    <div className="px-4-5 py-3">
+      <img src={icon} alt="Service Icon" />
+      <p className="fs-4 fw-bold primary-text">{title}</p>
+    </div>
+  );
 };
 
-export default Service
+export default Service;

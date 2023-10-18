@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+iframe#webpack-dev-server-client-overlay{display:none!important}
+
 :root {
   --primary-text: #444444;
   --secondary-text: #666666;
@@ -72,4 +74,16 @@ code {
 
 .secondary-bg {
   background: var(--white-smoke);
+}
+
+.me-3-5 {
+  margin-right: 1.25rem !important;
+}
+
+.mb-3-5 {
+  margin-bottom: 1.25rem !important;
+}
+
+.primary-text {
+  color: var(--primary-text)
 }

@@ -8,20 +8,20 @@ import polimento from "../assets/polimento.png";
 const Services = () => {
   return (
     <div className="container" id="services">
-      <div className="text-center text-break col-12">
+      <div className="text-center text-break">
         <p className="fs-title fw-bold">Our Services</p>
 
-        <div className="d-flex flex-row mb-3 justify-content-around">
-          <div className="card">
+        <div className="row mb-3 justify-content-around">
+          <div className="card col-sm-7 col-lg-5 me-3-5 mb-3-5">
             <Service title="Funilaria" icon={funilaria} />
           </div>
-          <div className="card">
+          <div className="card col-sm-7 col-lg-5 me-3-5 mb-3-5">
             <Service title="Martelinho de Ouro" icon={martelinho} />
           </div>
-          <div className="card">
+          <div className="card col-sm-7 col-lg-5 me-3-5 mb-3-5">
             <Service title="Polimento" icon={polimento} />
           </div>
-          <div className="card">
+          <div className="card col-sm-7 col-lg-5 me-3-5 mb-3-5">
             <Service title="Pintura" icon={pintura} />
           </div>
         </div>
