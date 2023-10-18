@@ -23,8 +23,8 @@
 }
 
 .customElipse {
-    width: 25rem; 
-    height: 25rem;
+    width: calc(12rem + 15vw); 
+    height: calc(12rem + 13vw);
     background: linear-gradient(170deg, rgba(183.81, 180.75, 180.75, 0.20) 0%, rgba(219, 219, 219, 0.10) 100%); 
     border-radius: 9999px; 
     border: 1px #DBDBDB solid;
@@ -46,24 +46,122 @@
 
 .upperImage {
     z-index: 1;
-    transform: translateY(-20%);
-    right: 18%;
-    margin-bottom: 7rem;
-    padding-bottom: 18rem;
+    transform: translateY(-25%);
+    right: calc(6vw);
+    margin-bottom: calc(5rem + 1.5vw);
+    padding-bottom: calc(14rem + 3vw);
 }
 
 .middleImage {
     z-index: 2;
+    right: calc(10rem + 9vw);
 }
 
 .bottomImage {
     z-index: 1;
     transform: translateY(20%);
-    right: 18%;
-    margin-top: 7rem;
-    padding-bottom: 18rem;
+    right: calc(6vw);
+    margin-top: calc(6rem + 1.5vw);
+    padding-bottom: calc(14rem + 3vw);
     
 }
+
+@media (min-width: 1300px) {
+    .upperImage {
+        right: calc(6vw);
+        margin-bottom: calc(5rem + 1.5vw);
+        padding-bottom: calc(14rem + 3vw);
+    }
+    
+    .middleImage {
+        right: calc(0.5rem + 21vw);
+    }
+    
+    .bottomImage {
+        right: calc(6vw);
+        margin-top: calc(6rem + 1.5vw);
+        padding-bottom: calc(14rem + 3vw);
+        
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .upperImage {
+        right: calc(13vw);
+        margin-bottom: calc(5rem + 1.5vw);
+        padding-bottom: calc(14rem + 3vw);
+    }
+    
+    .middleImage {
+        right: calc(0.5rem + 24vw);
+    }
+    
+    .bottomImage {
+        right: calc(13vw);
+        margin-top: calc(6rem + 1.5vw);
+        padding-bottom: calc(14rem + 3vw);
+        
+    }
+    .customElipse {
+        width: calc(14rem + 13vw); 
+        height: calc(14rem + 13vw);
+    }
+}
+
+@media (min-width: 1700px) {
+    .upperImage {
+        right: calc(1rem + 17vw);
+    }
+    
+    .middleImage {
+        right: calc(2rem + 28vw);
+    }
+    
+    .bottomImage {
+        right: calc(1rem + 17vw);
+    }
+}
+
+@media (min-width: 2000px) {
+    .upperImage {
+        right: calc(4rem + 20vw);
+    }
+    
+    .middleImage {
+        right: calc(4rem + 30vw);
+    }
+    
+    .bottomImage {
+        right: calc(4rem + 20vw);
+        
+    }
+    .customElipse {
+        width: calc(14rem + 10vw); 
+        height: calc(14rem + 10vw);
+    }
+}
+
+@media (min-width: 2400px) {
+    .upperImage {
+        right: calc(35rem + 5vw);
+    }
+    
+    .middleImage {
+        right: calc(45rem + 5vw);
+    }
+    
+    .bottomImage {
+        right: calc(35rem + 5vw);
+        
+    }
+
+    .customElipse {
+        width: calc(7rem + 13vw); 
+        height: calc(7rem + 13vw);
+    }
+}
+
 
 @media only screen and (max-width: 800px) {
 
