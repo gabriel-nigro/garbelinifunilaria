@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg py-4">
-        <div className="container-fluid px-11">
+        <div className="container">
           <a className="navbar-brand navbar-gap" href="http">
             <img
               src={logo}
@@ -33,11 +33,14 @@ const Navbar = () => {
             id="navbarNavDropdown"
           >
             <ul className="navbar-nav">
-              <Item title="Home" anchor="#features" type="primary" />
-              <Item title="About Us" anchor="#features" type="secondary" />
-              <Item title="Our Services" anchor="teste" type="secondary" />
-              <Item title="Booking" anchor="teste" type="secondary" />
-              <Item title="News" anchor="teste" type="secondary" />
+              <Item title="Home" anchor="#home" type="primary" />
+              <Item title="Sobre Nós" anchor="#about-us" type="secondary" />
+              <Item
+                title="Nossos Serviços"
+                anchor="#features"
+                type="secondary"
+              />
+              <Item title="Reviews" anchor="#reviews" type="secondary" />
             </ul>
           </div>
         </div>
