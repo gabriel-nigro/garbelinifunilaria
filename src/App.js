@@ -4,6 +4,7 @@ import Home from "./Home/index.js";
 import CarRepair from "./CarRepair/index.js";
 import Footer from "./Footer/index.js"
 import "./App.css";
+import Services from "./Services/index.js"
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       </div>
       <div className="py-10 footer">
         <Footer />
+      <div className="py-10">
+        <Services />
       </div>
     </div>
   );
