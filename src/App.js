@@ -13,7 +13,7 @@ function App() {
       <div className="py-10">
         <Features />
       </div>
-      <div className="py-10">
+      <div className="py-10 secondary-bg">
         <Review />
       </div>
     </div>
