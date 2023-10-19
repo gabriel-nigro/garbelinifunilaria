@@ -1,19 +1,15 @@
-.footer-subtitle {
-    font-size: 0.875rem !important;
-    color: var(--white);
-}
-
 .footer-link {
     font-size: 1rem !important;
-    color: var(--secondary-text);
+    color: var(--white);
     text-decoration: none;
 }
 
-.footer-title {
-    font-size: 1.5rem !important;
-    color: var(--white);
+.footer-map {
+    height: 30vh; 
+    width: 100%;
 }
 
-.footer-card {
-    min-height: 35vh;
+.icon {
+    width: 24px; 
+    height: 24px;
 }

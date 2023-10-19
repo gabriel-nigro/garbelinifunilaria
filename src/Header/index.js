@@ -33,14 +33,14 @@ const Navbar = () => {
             id="navbarNavDropdown"
           >
             <ul className="navbar-nav">
-              <Item title="Home" anchor="#home" type="primary" />
+              <Item title="Home" anchor="#home" type="secondary" />
               <Item title="Sobre Nós" anchor="#about-us" type="secondary" />
               <Item
                 title="Nossos Serviços"
-                anchor="#features"
+                anchor="#services"
                 type="secondary"
               />
-              <Item title="Reviews" anchor="#reviews" type="secondary" />
+              <Item title="Clientes" anchor="#clients" type="secondary" />
             </ul>
           </div>
         </div>

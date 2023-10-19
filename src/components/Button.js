@@ -1,9 +1,13 @@
 import "./Button.css";
 
-const Button = () => {
+const Button = ({ text, onClick }) => {
   return (
-    <button type="button" className="btn button-primary py-3 px-4-5">
-      Contact Us
+    <button
+      type="button"
+      className="btn button-primary py-3 px-4-5"
+      onClick={onClick}
+    >
+      {text}
     </button>
   );
 };

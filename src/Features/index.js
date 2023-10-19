@@ -9,32 +9,32 @@ const Features = () => {
   return (
     <div className="container" id="features">
       <div className="text-center text-break">
-        <p className="fs-title fw-bold">Why Choose Us?</p>
-        <p className="fs-subtitle secondary-text">
-          Entrust your vehicle problems to us
+        <p className="fs-title fw-bold">Por Que Nos Escolher?</p>
+        <p className="fs-subtitle">
+          Entregue seu veículo aos nossos cuidados profissionais.
         </p>
         <div className="row mt-6">
-          <div className="col-sm-12 col-md-4 col-lg-4 px-3">
+          <div className="col-md-12 col-lg-4 px-3">
             <Card
               icon={UserGear}
-              title="Professional Mechanics"
-              description="All of our mechanics are well trained and skilled in solve problems in your car"
+              title="Equipe Qualificada"
+              description="Nossa equipe de especialistas é o segredo por trás do nosso sucesso."
               color="green-icon"
             />
           </div>
-          <div className="col-sm-12 col-md-4 col-lg-4 px-3">
+          <div className="col-md-12 col-lg-4 px-3">
             <Card
               icon={Nut}
-              title="Modern Equipments"
-              description="The tools used by our mechanics are specialist tools with the latest technology"
+              title="Peças de Qualidade"
+              description="Garantimos durabilidade com peças e materiais de alto padrão."
               color="orange-icon"
             />
           </div>
-          <div className="col-sm-12 col-md-4 col-lg-4 px-3">
+          <div className="col-md-12 col-lg-4 px-3">
             <Card
               icon={ClockClockwise}
-              title="24 Hour Service"
-              description="All of our mechanics are well trained and skilled in solve problems in your car"
+              title="Funilaria Express"
+              description="Realizamos pequenos reparos com eficiência, garantindo a entrega no próprio dia."
               color="gray-icon"
             />
           </div>

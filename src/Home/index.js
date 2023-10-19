@@ -5,17 +5,27 @@ import middleImage from "../assets/middleImage.png";
 import bottomImage from "../assets/bottomImage.png";
 
 const Home = () => {
+  function onClick() {
+    window.open(
+      process.env.WHATSAPP_API_REDIRECT,
+      "_blank",
+      "noopener,noreferrer",
+    );
+  }
+
   return (
     <div className="container" id="home">
       <div className="row">
         <div className="col-md-12 col-lg-7">
-          <p className="fs-0 fw-bold zindex">Best Choice For Car Maintenance</p>
-          <p className="fs-6 customPadding zindex">
-            CarRepair provides the best service to you with experienced
-            mechanics. The best choice to service regularly and keep your
-            vehicle in good condition.
+          <p className="fs-0 fw-bold zindex">
+            Melhor escolha em Funilaria e Pintura
           </p>
-          <Button />
+          <p className="fs-5-5 pb-4-5 m-0 zindex">
+            Oferecemos o melhor serviço a você, com profissionais experientes e
+            competentes. Somos a opção ideal para garantir a boa condição de
+            funilaria e pintura do seu veículo.
+          </p>
+          <Button text="Contate-nos" onClick={onClick} />
         </div>
         <div className="col-5">
           <div className="graphContent">

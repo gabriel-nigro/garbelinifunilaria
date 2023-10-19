@@ -6,7 +6,7 @@ const Card = ({ title, icon, description, color }) => {
       </div>
       <div className="row">
         <p className="fs-1 fw-bold">{title}</p>
-        <p className="fs-7 fs-subtitle">{description}</p>
+        <p className="fs-subtitle">{description}</p>
       </div>
     </div>
   );

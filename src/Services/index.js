@@ -1,4 +1,3 @@
-import "./services.css";
 import Service from "./Service.js";
 import funilaria from "../assets/funilaria.png";
 import martelinho from "../assets/martelinho.png";
@@ -9,7 +8,7 @@ const Services = () => {
   return (
     <div className="container" id="services">
       <div className="text-center text-break">
-        <p className="fs-title fw-bold">Our Services</p>
+        <p className="fs-title fw-bold">Nossos Serviços</p>
 
         <div className="row mb-3 justify-content-around">
           <div className="card col-sm-7 col-lg-5 me-3-5 mb-3-5">
