@@ -1,0 +1,15 @@
+.footer-link {
+    font-size: 1rem !important;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-map {
+    height: 30vh; 
+    width: 100%;
+}
+
+.icon {
+    width: 24px; 
+    height: 24px;
+}

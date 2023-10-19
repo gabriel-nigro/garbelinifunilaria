@@ -1,0 +1,22 @@
+.icon {
+    height: 64px;
+    width: 64px;
+}
+
+.rounded-icon {
+    border-radius: 9999px !important;
+    height: 80px !important;
+    width: 80px !important;
+  }
+  
+.green-icon {
+    background: var(--green-icon) !important;
+}
+  
+.orange-icon {
+    background: var(--orange-icon) !important;
+}
+  
+.gray-icon {
+    background: var(--gray-icon) !important;
+}
