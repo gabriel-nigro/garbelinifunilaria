@@ -66,8 +66,7 @@ code {
 
 @media (max-width: 400px){
   .me-3-5 {
-      margin-left: 1.5rem;
-      margin-right: 1.5rem;
+      margin-right: 0 !important;
   }
 }
 
