@@ -23,7 +23,7 @@ export default function Map() {
     // Important! Always set the container height explicitly
     <div className="footer-map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.API_KEY }}
+        bootstrapURLKeys={{ key: "AIzaSyDOIPQaE89bcna8yrbnsMrFmC6HFas-TfI" }}
         defaultCenter={location.center}
         defaultZoom={location.zoom}
         yesIWantToUseGoogleMapApiInternals
