@@ -5,6 +5,7 @@ import Clients from "./Clients/index.js";
 import CarRepair from "./CarRepair/index.js";
 import Footer from "./Footer/index.js";
 import Services from "./Services/index.js";
+import FloatingActionButton from "./components/FloatingActionButton.js";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <div className="py-10 bg-black">
         <Footer />
       </div>
+      <FloatingActionButton />
     </div>
   );
 }

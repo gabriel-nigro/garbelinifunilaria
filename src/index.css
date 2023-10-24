@@ -8,8 +8,12 @@ iframe#webpack-dev-server-client-overlay{display:none!important}
   --black: #000000;
   --black-contrast-text: #827070;
   --white: #FFFFFF;
+  --gray95: #f2f2f2;
   --white-smoke: #F5F5F5;
   --primary-color: #1E69B8;
+  --secondary-color: #2C82DD;
+  --facebook-blue: #4267b2;
+  --whatsapp-green: #128C7E;
   --green-icon: #D7EDE7;
   --orange-icon: #FDEDD9;
   --gray-icon: #ECE9E5;
