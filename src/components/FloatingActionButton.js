@@ -24,7 +24,7 @@ const FloatingActionButton = () => {
   return (
     <Fab
       style={component.position}
-      event="hover"
+      event="click"
       icon={<FontAwesomeIcon icon={faMessage} />}
       alwaysShowTitle={true}
     >
