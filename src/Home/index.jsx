@@ -1,4 +1,4 @@
-import Button from "../components/Button";
+import Button from "../components/Button.jsx";
 import "./Home.css";
 import upperImage from "../assets/upperImage.png";
 import middleImage from "../assets/middleImage.png";

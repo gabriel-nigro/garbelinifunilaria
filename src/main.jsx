@@ -1,10 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import reportWebVitals from "./reportWebVitals";
+import ReactGA from "react-ga4";
+import TagManager from "react-gtm-module";
+
+// Google Analytics and Tag Manager
+ReactGA.initialize("G-T2460GV2MY");
+TagManager.initialize({ gtmId: "GTM-KQR28PQC" });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,8 +17,3 @@ root.render(
     <App />
   </React.StrictMode>,
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

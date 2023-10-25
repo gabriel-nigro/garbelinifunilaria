@@ -1,5 +1,5 @@
 import "./Header.css";
-import Item from "./Item";
+import Item from "./Item.jsx";
 import logo from "../assets/logo.png"; // Tell webpack this JS file uses this image
 
 const Navbar = () => {
