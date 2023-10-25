@@ -1,9 +1,9 @@
 import "./Footer.css";
-import Map from "./Map.js";
+import Map from "./Map.jsx";
 import Message from "../assets/message.svg";
 import Call from "../assets/call.svg";
 import MapPin from "../assets/mapPin.svg";
-import Contact from "./Contact";
+import Contact from "./Contact.jsx";
 
 const Footer = () => {
   return (

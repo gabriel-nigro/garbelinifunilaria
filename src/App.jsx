@@ -1,11 +1,12 @@
-import Features from "./Features/index.js";
-import Navbar from "./Header/index.js";
-import Home from "./Home/index.js";
-import Clients from "./Clients/index.js";
-import CarRepair from "./CarRepair/index.js";
-import Footer from "./Footer/index.js";
-import Services from "./Services/index.js";
-import FloatingActionButton from "./components/FloatingActionButton.js";
+
+import Navbar from "./Header/index.jsx";
+import Home from "./Home/index.jsx";
+import Clients from "./Clients/index.jsx";
+import CarRepair from "./CarRepair/index.jsx";
+import Footer from "./Footer/index.jsx";
+import Services from "./Services/index.jsx";
+import FloatingActionButton from "./components/FloatingActionButton.jsx";
+import Features from "./Features/index.jsx";
 
 function App() {
   return (

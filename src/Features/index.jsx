@@ -2,7 +2,7 @@
 import UserGear from "../assets/UserGear.svg";
 import ClockClockwise from "../assets/ClockClockwise.svg";
 import Nut from "../assets/Nut.svg";
-import Card from "./Card";
+import Card from "./Card.jsx";
 import "./Features.css";
 
 const Features = () => {

@@ -1,4 +1,4 @@
-import Service from "./Service.js";
+import Service from "./Service.jsx";
 import funilaria from "../assets/funilaria.png";
 import martelinho from "../assets/martelinho.png";
 import pintura from "../assets/pintura.png";
