@@ -1,7 +1,7 @@
-import "./CarRepair.css";
-import carRepair from "../assets/carRepair.png";
+import "./AboutUs.css";
+import carRepair from "../../assets/carRepair.png";
 
-const CarRepair = () => {
+const AboutUs = () => {
   return (
     <div className="container" id="about-us">
       <div className="row">
@@ -27,4 +27,4 @@ const CarRepair = () => {
   );
 };
 
-export default CarRepair;
+export default AboutUs;

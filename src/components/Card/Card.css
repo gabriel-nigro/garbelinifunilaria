@@ -1,14 +1,14 @@
-.icon {
-    height: 64px;
-    width: 64px;
-}
-
 .rounded-icon {
     border-radius: 9999px !important;
     height: 80px !important;
     width: 80px !important;
   }
-  
+
+.icon {
+    height: 64px !important;
+    width: 64px !important;
+}
+
 .green-icon {
     background: var(--green-icon) !important;
 }

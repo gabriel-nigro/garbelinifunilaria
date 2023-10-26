@@ -1,0 +1,10 @@
+.contact-icon {
+    width: 24px !important; 
+    height: 24px !important;
+}
+
+.contact-item {
+    font-size: 1rem !important;
+    color: var(--white);
+    text-decoration: none;
+}

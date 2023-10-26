@@ -1,0 +1,10 @@
+/* Override Bootstrap */
+.navbar-text-primary {
+    font-size: 0.85rem !important;
+    color: var(--primary-text) !important;
+}
+
+.navbar-text-secondary {
+    font-size: 0.85rem !important;
+    color: var(--secondary-text) !important;
+}

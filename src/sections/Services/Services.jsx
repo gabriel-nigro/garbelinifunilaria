@@ -1,8 +1,8 @@
-import Service from "./Service.jsx";
-import funilaria from "../assets/funilaria.png";
-import martelinho from "../assets/martelinho.png";
-import pintura from "../assets/pintura.png";
-import polimento from "../assets/polimento.png";
+import Service from "../../components/Service/Service.jsx";
+import funilaria from "../../assets/funilaria.png";
+import martelinho from "../../assets/martelinho.png";
+import pintura from "../../assets/pintura.png";
+import polimento from "../../assets/polimento.png";
 
 const Services = () => {
   return (

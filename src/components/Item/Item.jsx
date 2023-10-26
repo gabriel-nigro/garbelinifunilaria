@@ -1,3 +1,5 @@
+import "./Item.css"
+
 const Item = ({ title, anchor, type }) => {
   return (
     <li className="nav-item">

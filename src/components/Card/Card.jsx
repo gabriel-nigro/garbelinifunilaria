@@ -1,3 +1,5 @@
+import "./Card.css"
+
 const Card = ({ title, icon, description, color }) => {
   return (
     <div className="px-4-5 py-3">

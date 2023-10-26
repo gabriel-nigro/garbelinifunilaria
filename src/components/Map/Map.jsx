@@ -1,4 +1,5 @@
 import GoogleMapReact from "google-map-react";
+import "./Map.css"
 
 export default function Map() {
   const location = {
@@ -21,7 +22,7 @@ export default function Map() {
 
   return (
     // Important! Always set the container height explicitly
-    <div className="footer-map">
+    <div className="map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyDOIPQaE89bcna8yrbnsMrFmC6HFas-TfI" }}
         defaultCenter={location.center}
