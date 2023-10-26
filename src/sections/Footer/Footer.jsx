@@ -1,8 +1,11 @@
-import Map from "../../components/Map/Map.jsx";
-import Message from "../../assets/message.svg";
+// Assets
 import Call from "../../assets/call.svg";
 import MapPin from "../../assets/mapPin.svg";
+import Message from "../../assets/message.svg";
+
+// Components
 import Contact from "../../components/Contact/Contact.jsx";
+import Map from "../../components/Map/Map.jsx";
 
 const Footer = () => {
   return (

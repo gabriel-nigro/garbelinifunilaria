@@ -1,8 +1,13 @@
-import Button from "../../components/Button/Button.jsx";
-import "./Home.css";
-import upperImage from "../../assets/upperImage.png";
-import middleImage from "../../assets/middleImage.png";
+// Assets
 import bottomImage from "../../assets/bottomImage.png";
+import middleImage from "../../assets/middleImage.png";
+import upperImage from "../../assets/upperImage.png";
+
+// Components
+import Button from "../../components/Button/Button.jsx";
+
+// Styles
+import "./Home.css";
 
 const Home = () => {
   function onClick() {

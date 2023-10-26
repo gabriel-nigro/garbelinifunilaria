@@ -1,5 +1,8 @@
-import "./AboutUs.css";
+// Assets
 import carRepair from "../../assets/carRepair.png";
+
+// Styles
+import "./AboutUs.css";
 
 const AboutUs = () => {
   return (

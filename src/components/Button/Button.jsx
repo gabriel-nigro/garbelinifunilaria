@@ -1,3 +1,4 @@
+// Styles
 import "./Button.css";
 
 const Button = ({ text, onClick }) => {

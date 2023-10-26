@@ -1,3 +1,4 @@
+// Styles
 import "./Card.css"
 
 const Card = ({ title, icon, description, color }) => {

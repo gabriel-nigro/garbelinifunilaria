@@ -1,8 +1,11 @@
-import Service from "../../components/Service/Service.jsx";
+// Assets
 import funilaria from "../../assets/funilaria.png";
 import martelinho from "../../assets/martelinho.png";
 import pintura from "../../assets/pintura.png";
 import polimento from "../../assets/polimento.png";
+
+// Components
+import Service from "../../components/Service/Service.jsx";
 
 const Services = () => {
   return (

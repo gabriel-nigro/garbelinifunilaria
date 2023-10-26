@@ -1,7 +1,9 @@
-//import React from 'react'
-import UserGear from "../../assets/UserGear.svg";
+// Assets
 import ClockClockwise from "../../assets/ClockClockwise.svg";
 import Nut from "../../assets/Nut.svg";
+import UserGear from "../../assets/UserGear.svg";
+
+// Components
 import Card from "../../components/Card/Card.jsx";
 
 const Features = () => {

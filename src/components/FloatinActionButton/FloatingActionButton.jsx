@@ -1,13 +1,21 @@
-import { Fab, Action } from "react-tiny-fab";
-import "react-tiny-fab/dist/styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMessage, faPhone } from "@fortawesome/free-solid-svg-icons";
+// Assets
+import { 
+  faPhone, 
+  faMessage 
+} from "@fortawesome/free-solid-svg-icons";
 import {
-  faWhatsapp,
   faFacebook,
   faInstagram,
+  faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
+
+// Components
+import { Fab, Action } from "react-tiny-fab";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// Styles
 import "./FloatingActionButton.css";
+import "react-tiny-fab/dist/styles.css";
 
 const FloatingActionButton = () => {
   const component = {

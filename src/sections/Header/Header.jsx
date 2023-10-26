@@ -1,6 +1,11 @@
-import "./Header.css";
+// Assets
+import logo from "../../assets/logo.png";
+
+// Components
 import Item from "../../components/Item/Item.jsx";
-import logo from "../../assets/logo.png"; // Tell webpack this JS file uses this image
+
+// Styles
+import "./Header.css";
 
 const Navbar = () => {
   return (

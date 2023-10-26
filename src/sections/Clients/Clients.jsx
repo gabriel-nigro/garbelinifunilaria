@@ -1,4 +1,5 @@
-import { ElfsightWidget } from "react-elfsight-widget";
+// Components
+import { ElfsightWidget } from "react-elfsight-widget"; // Elfsight widget for Google Reviews
 
 const Clients = () => {
   return (
