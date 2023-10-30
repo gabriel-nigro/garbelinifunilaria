@@ -1,0 +1,50 @@
+@media (min-width: 300px) {
+    .navbar-gap {
+        padding-right: 1.2rem !important;
+    } 
+}
+
+@media (min-width: 991px) {
+    .navbar-gap {
+        padding-right: 20.2rem !important;
+    } 
+}
+
+@media (min-width: 1100px) {
+    .navbar-gap {
+        padding-right: calc(10rem + 15vw) !important;
+    } 
+}
+
+@media (min-width: 1200px) {
+    .navbar-gap {
+        padding-right: calc(20rem + 14vw) !important;
+    } 
+}
+
+@media (min-width: 1360px) {
+    .navbar-gap {
+        padding-right: 31.0rem !important;
+    } 
+  }
+
+@media (min-width: 2000px) {
+    .navbar-gap {
+        padding-right: 40rem !important;
+    } 
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 65px;
+    width: auto;
+    height: auto; 
+}
+
+.custom-dropdown.show {
+    background-color: var(--bs-secondary-bg-subtle) !important;
+}
+
+.custom-dropdown.collapsing {
+    background-color: var(--bs-secondary-bg-subtle) !important;
+}
