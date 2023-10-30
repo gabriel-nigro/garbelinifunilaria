@@ -1,5 +1,9 @@
 // Assets
-import carRepair from "../../assets/carRepair.png";
+import carRepairWebp from "../../assets/carRepair.webp"
+import carRepairPng from "../../assets/carRepair.png";
+
+// Components
+import Picture from "../../components/Picture/Picture.jsx";
 
 // Styles
 import "./AboutUs.css";
@@ -9,11 +13,7 @@ const AboutUs = () => {
     <div className="container" id="about-us">
       <div className="row">
         <div className="col-sm-12 col-lg-6">
-          <img
-            className="rounded img-fluid img-car-repair"
-            src={carRepair}
-            alt="car repair"
-          />
+          <Picture src={carRepairWebp} fallback={carRepairPng} alt="car-repair" className="rounded img-fluid img-car-repair" />
         </div>
         <div className="col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
           <p className="fs-4">Sobre nós</p>

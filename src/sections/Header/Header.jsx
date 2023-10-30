@@ -1,25 +1,22 @@
 // Assets
-import logo from "../../assets/logo.png";
+import logoPng from "../../assets/logo.png";
+import logoWebp from "../../assets/logo.webp"
 
 // Components
 import Item from "../../components/Item/Item.jsx";
+import Picture from "../../components/Picture/Picture.jsx";
 
 // Styles
 import "./Header.css";
+
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg py-4">
         <div className="container">
-          <a className="navbar-brand navbar-gap" href="http">
-            <img
-              src={logo}
-              alt="Logo"
-              width="200"
-              height="65"
-              className="d-inline-block align-text-top"
-            />
+          <a className="navbar-brand navbar-gap" href="/">
+            <Picture src={logoWebp} fallback={logoPng} alt="logo" className="d-inline-block align-text-top logo" />
           </a>
           <button
             className="navbar-toggler"

@@ -19,13 +19,13 @@ function App() {
         <AboutUs />
       </div>
       <div className="py-10">
-        <Services />
+        <Features />
       </div>
       <div className="py-10 bg-white-smoke">
-        <Clients />
+        <Services />
       </div>
       <div className="py-10">
-        <Features />
+        <Clients />
       </div>
       <div className="py-10 bg-black">
         <Footer />

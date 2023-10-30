@@ -1,6 +1,9 @@
 // Components
 import { ElfsightWidget } from "react-elfsight-widget"; // Elfsight widget for Google Reviews
 
+// Style
+import "./Clients.css"
+
 const Clients = () => {
   return (
     <div className="container" id="clients">

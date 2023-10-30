@@ -1,10 +1,14 @@
 // Assets
-import bottomImage from "../../assets/bottomImage.png";
-import middleImage from "../../assets/middleImage.png";
-import upperImage from "../../assets/upperImage.png";
+import bottomImagePng from "../../assets/bottomImage.png";
+import bottomImageWebp from "../../assets/bottomImage.webp";
+import middleImagePng from "../../assets/middleImage.png";
+import middleImageWebp from "../../assets/middleImage.webp";
+import upperImagePng from "../../assets/upperImage.png";
+import upperImageWebp from "../../assets/upperImage.webp";
 
 // Components
 import Button from "../../components/Button/Button.jsx";
+import Picture from "../../components/Picture/Picture.jsx";
 
 // Styles
 import "./Home.css";
@@ -35,27 +39,9 @@ const Home = () => {
         <div className="col-5">
           <div className="graphContent">
             <div className="customElipse">
-              <div>
-                <img
-                  className="upperImage image"
-                  src={upperImage}
-                  alt="changing oil"
-                />
-              </div>
-              <div>
-                <img
-                  className="middleImage image"
-                  src={middleImage}
-                  alt="changing tires"
-                />
-              </div>
-              <div>
-                <img
-                  className="bottomImage image"
-                  src={bottomImage}
-                  alt="changing break"
-                />
-              </div>
+                <Picture src={upperImageWebp} fallback={upperImagePng} alt="changing oil" className="upperImage image" />
+                <Picture src={middleImageWebp} fallback={middleImagePng} alt="changing tires" className="middleImage image" />
+                <Picture src={bottomImageWebp} fallback={bottomImagePng} alt="changing break" className="bottomImage image" />
             </div>
           </div>
         </div>
