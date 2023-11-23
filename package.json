@@ -53,7 +53,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{jsx}": [
+    "**/*.jsx": [
       "npm run lintfix"
     ]
   }
