@@ -22,7 +22,8 @@
 .image {
     position: absolute;
     transform: translateY(20%);
-
+    height: 250;
+    width: 295;
 }
 
 .upperImage {
