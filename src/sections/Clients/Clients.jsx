@@ -1,6 +1,3 @@
-// Components
-//import { ElfsightWidget } from "react-elfsight-widget"; // Elfsight widget for Google Reviews
-
 // Style
 import "./Clients.css"
 
