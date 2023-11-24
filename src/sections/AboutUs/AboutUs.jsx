@@ -1,6 +1,6 @@
 // Assets
-import carRepairWebp from "../../assets/carRepair.webp"
-import carRepairPng from "../../assets/carRepair.png";
+import carRepairWebp from "../../assets/carRepairSmall.webp"
+import carRepairPng from "../../assets/carRepairSmall.png";
 
 // Components
 import Picture from "../../components/Picture/Picture.jsx";

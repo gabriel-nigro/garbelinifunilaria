@@ -26,8 +26,25 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Garbelini Funilaria</title>
+    <script>
+      partytown = {
+        forward: ['dataLayer.push'],
+      };
+    </script>
+    <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=GTM-KQR28PQC"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'GTM-KQR28PQC');
+    </script>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQR28PQC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

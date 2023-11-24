@@ -1,18 +1,20 @@
 {
   "name": "garbelinifunilaria",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --ignore-path .eslintignore .",
     "preview": "vite preview",
+    "partytown": "partytown copylib public/~partytown",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --ignore-path .eslintignore .",
     "lintfix": "eslint --fix --ext \".ts,.js\" --ignore-path .eslintignore .",
     "prepare": "husky install",
     "commit": "git-cz"
   },
   "dependencies": {
+    "@builder.io/partytown": "^0.8.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
@@ -23,8 +25,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-elfsight-widget": "^1.1.1",
-    "react-ga4": "^2.1.0",
-    "react-gtm-module": "^2.0.11",
     "react-tiny-fab": "^4.0.4"
   },
   "devDependencies": {
@@ -53,7 +53,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{jsx}": [
+    "**/*.jsx": [
       "npm run lintfix"
     ]
   }

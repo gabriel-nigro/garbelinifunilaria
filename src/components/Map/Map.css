@@ -2,3 +2,8 @@
     height: 30vh !important; 
     width: 100% !important;
 }
+
+.gm-err-icon img {
+    width: 48px !important;
+    height: 48px !important;
+}

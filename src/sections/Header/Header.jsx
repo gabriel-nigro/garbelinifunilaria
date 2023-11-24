@@ -1,6 +1,6 @@
 // Assets
-import logoPng from "../../assets/logo.png";
-import logoWebp from "../../assets/logo.webp"
+import logoPng from "../../assets/logoSmall.png";
+import logoWebp from "../../assets/logoSmall.webp"
 
 // Components
 import Item from "../../components/Item/Item.jsx";

@@ -1,8 +1,12 @@
 // Assets
-import funilaria from "../../assets/funilaria.png";
-import martelinho from "../../assets/martelinho.png";
-import pintura from "../../assets/pintura.png";
-import polimento from "../../assets/polimento.png";
+import funilariaPng from "../../assets/funilaria.png";
+import funilariaWebp from "../../assets/funilaria.webp";
+import martelinhoPng from "../../assets/martelinho.png";
+import martelinhoWebp from "../../assets/martelinho.webp";
+import pinturaPng from "../../assets/pintura.png";
+import pinturaWebp from "../../assets/pintura.webp"
+import polimentoPng from "../../assets/polimento.png";
+import polimentoWebp from "../../assets/polimento.webp";
 
 // Components
 import Service from "../../components/Service/Service.jsx";
@@ -15,16 +19,16 @@ const Services = () => {
 
         <div className="row mb-3 justify-content-around">
           <div className="card col-8 col-sm-7 col-lg-5 me-3-5 mb-3-5">
-            <Service title="Funilaria" icon={funilaria} />
+            <Service title="Funilaria" icon={funilariaWebp} iconFallback={funilariaPng} />
           </div>
           <div className="card col-8 col-sm-7 col-lg-5 me-3-5 mb-3-5">
-            <Service title="Martelinho de Ouro" icon={martelinho} />
+            <Service title="Martelinho de Ouro" icon={martelinhoWebp} iconFallback={martelinhoPng} />
           </div>
           <div className="card col-8 col-sm-7 col-lg-5 me-3-5 mb-3-5">
-            <Service title="Polimento" icon={polimento} />
+            <Service title="Polimento" icon={polimentoWebp} iconFallback={polimentoPng} />
           </div>
           <div className="card col-8 col-sm-7 col-lg-5 me-3-5 mb-3-5">
-            <Service title="Pintura" icon={pintura} />
+            <Service title="Pintura" icon={pinturaWebp} iconFallback={pinturaPng} />
           </div>
         </div>
       </div>
