@@ -1,9 +1,9 @@
 // Assets
-import carRepairWebp from "../../assets/carRepairSmall.webp"
-import carRepairPng from "../../assets/carRepairSmall.png";
-
-// Components
-import Picture from "../../components/Picture/Picture.jsx";
+import carRepairLargeWebp from "../../assets/carRepairLarge.webp"
+import carRepairMediumWebp from "../../assets/carRepairMedium.webp"
+import carRepairSmallWebp from "../../assets/carRepairSmall.webp"
+import carRepairExtraSmallWebp from "../../assets/carRepairExtraSmall.webp"
+import carRepairSmallPng from "../../assets/carRepairSmall.png";
 
 // Styles
 import "./AboutUs.css";
@@ -13,7 +13,15 @@ const AboutUs = () => {
     <div className="container" id="about-us">
       <div className="row">
         <div className="col-sm-12 col-lg-6">
-          <Picture src={carRepairWebp} fallback={carRepairPng} alt="car-repair" className="rounded img-fluid img-car-repair" />
+          <picture>
+            <source media="(max-width:460px)" width="325" height="235" srcSet={carRepairExtraSmallWebp} />
+            <source media="(max-width:750px)" width="450" height="325" srcSet={carRepairSmallWebp} />
+            <source media="(max-width:991px)" width="625" height="452" srcSet={carRepairLargeWebp} />
+            <source media="(max-width:1200px)" width="450" height="325" srcSet={carRepairSmallWebp} />
+            <source media="(max-width:1399px)" width="525" height="379" srcSet={carRepairMediumWebp} type='image/webp' />
+            <source media="(min-width:1400px)" width="625" height="452" srcSet={carRepairLargeWebp} type='image/webp' />
+            <img src={carRepairSmallPng} alt="car-repair" className="rounded img-car-repair" />
+          </picture>
         </div>
         <div className="col-sm-12 col-lg-6 d-flex flex-column justify-content-center">
           <p className="fs-4">Sobre nós</p>
