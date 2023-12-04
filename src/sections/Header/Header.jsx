@@ -13,7 +13,7 @@ import "./Header.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg py-4">
+      <nav className="navbar navbar-expand-lg py-4" data-testid="header">
         <div className="container">
           <a className="navbar-brand navbar-gap" href="/">
             <Picture src={logoWebp} fallback={logoPng} alt="logo" className="d-inline-block align-text-top logo" />

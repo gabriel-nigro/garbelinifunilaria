@@ -13,6 +13,9 @@ import {
 import { Fab, Action } from "react-tiny-fab";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+// Utils
+import { onClick } from "./FloatingActionButton.utils";
+
 // Styles
 import "./FloatingActionButton.css";
 import "react-tiny-fab/dist/styles.css";
@@ -25,9 +28,6 @@ const FloatingActionButton = () => {
     },
   };
 
-  const handleOnClick = (url) => {
-    window.open(url, "_blank", "noopener,noreferrer");
-  };
 
   return (
     <Fab
@@ -38,7 +38,7 @@ const FloatingActionButton = () => {
     >
       <Action
         onClick={() =>
-          handleOnClick(
+          onClick(
             "https://api.whatsapp.com/send?phone=551120212289&text=Ol%C3%A1!%0AGostaria%20de%20realizar%20um%20or%C3%A7amento%20:)",
           )
         }
@@ -50,7 +50,7 @@ const FloatingActionButton = () => {
       </Action>
       <Action
         onClick={() =>
-          handleOnClick("https://www.facebook.com/garbelinifunilaria")
+          onClick("https://www.facebook.com/garbelinifunilaria")
         }
       >
         <FontAwesomeIcon
@@ -60,7 +60,7 @@ const FloatingActionButton = () => {
       </Action>
       <Action
         onClick={() =>
-          handleOnClick("https://www.instagram.com/garbelinifunilaria/")
+          onClick("https://www.instagram.com/garbelinifunilaria/")
         }
       >
         <FontAwesomeIcon
@@ -68,7 +68,7 @@ const FloatingActionButton = () => {
           className="fab-background fab-black"
         />
       </Action>
-      <Action onClick={() => handleOnClick("tel:+551120212289")}>
+      <Action onClick={() => onClick("tel:+551120212289")}>
         <FontAwesomeIcon icon={faPhone} className="fab-background fab-black" />
       </Action>
     </Fab>

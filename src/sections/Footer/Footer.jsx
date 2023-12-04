@@ -8,8 +8,9 @@ import Contact from "../../components/Contact/Contact.jsx";
 import Map from "../../components/Map/Map.jsx";
 
 const Footer = () => {
+
   return (
-    <div className="container">
+    <div className="container" data-testid="footer">
       <div className="row">
         <div className="col-sm-12 col-lg-6 px-1">
           <p className="fs-2 mb-4 text-center text-lg-start">Contatos</p>

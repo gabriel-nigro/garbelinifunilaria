@@ -7,6 +7,7 @@ const Button = ({ text, onClick }) => {
       type="button"
       className="btn button-primary py-3 px-4-5"
       onClick={onClick}
+      data-testid="button"
     >
       {text}
     </button>
