@@ -19,7 +19,7 @@ export default function Map() {
         defaultCenter={location.center}
         defaultZoom={location.zoom}
         yesIWantToUseGoogleMapApiInternals
-        onGoogleApiLoaded={(map, maps) => handleApiLoaded(map, maps)}
+        onGoogleApiLoaded={handleApiLoaded}
       />
     </div>
   );
