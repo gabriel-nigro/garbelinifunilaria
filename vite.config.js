@@ -14,7 +14,7 @@ export default defineConfig({
   ],
   test: {
     coverage: {
-      reporter: ["text", "json", "html"],
+      reporter: ["lcov", "text"],
     },
     globals: true,
     environment: "jsdom",
