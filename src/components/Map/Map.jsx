@@ -1,5 +1,6 @@
 import GoogleMapReact from "google-map-react";
 import "./Map.css"
+import { handleApiLoaded } from "./Map.utils"
 
 export default function Map() {
   const location = {
@@ -10,25 +11,14 @@ export default function Map() {
     zoom: 17,
   };
 
-  // https://stackoverflow.com/questions/41405343/adding-marker-to-google-maps-in-google-map-react
-  const renderMarkers = (map, maps) => {
-    let marker = new maps.Marker({
-      position: location.center,
-      map,
-      title: "Garbelini Funilaria e Pintura",
-    });
-    return marker;
-  };
-
   return (
     // Important! Always set the container height explicitly
-    <div className="map">
+    <div className="map" data-testid="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDOIPQaE89bcna8yrbnsMrFmC6HFas-TfI" }}
         defaultCenter={location.center}
         defaultZoom={location.zoom}
         yesIWantToUseGoogleMapApiInternals
-        onGoogleApiLoaded={({ map, maps }) => renderMarkers(map, maps)}
+        onGoogleApiLoaded={handleApiLoaded}
       />
     </div>
   );

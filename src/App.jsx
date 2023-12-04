@@ -10,8 +10,9 @@ import Features from "./sections/Features/Features.jsx";
 
 
 function App() {
+
   return (
-    <div>
+    <div data-testid="app">
       <Navbar />
       <div className="py-10">
         <Home />
