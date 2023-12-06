@@ -53,7 +53,7 @@
     "jsdom": "^23.0.0",
     "lint-staged": "^13.1.0",
     "prettier": "^3.0.3",
-    "vite": "^4.4.5",
+    "vite": "^4.5.1",
     "vitest": "^0.34.6"
   },
   "config": {
