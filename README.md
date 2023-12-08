@@ -7,43 +7,53 @@
 <p align="center">
     <a href="https://nodejs.org/en">
     <img src="https://img.shields.io/badge/node-v19.3.0-purple"
-         alt="Node version">
+         alt="Node version" />
+    </a>
     <a href="https://github.com/gabriel-nigro">
     <img src="https://img.shields.io/badge/maintainer-%40gabriel--nigro-purple"
-         alt="Maintainer">
+         alt="Maintainer" />
+    </a>
     <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-purple.svg"
-         alt="License: MIT">
+         alt="License: MIT" />
+    </a>
 </p>
 
 <p align="center">
     <a href="https://garbelinifunilaria.com.br/">
     <img src="https://img.shields.io/badge/website-up-brightgreen"
-         alt="Website">
+         alt="Website" />
+    </a>
     <a href="https://github.com/gabriel-nigro/garbelinifunilaria/issues">
     <img src="https://img.shields.io/github/issues/gabriel-nigro/garbelinifunilaria"
-         alt="GitHub issues">
-    <a href="https://github.comgabriel-nigro/garbelinifunilaria/commits/main">
+         alt="GitHub issues" />
+    </a>
+    <a href="https://github.com/gabriel-nigro/garbelinifunilaria/commits/main">
     <img src="https://img.shields.io/github/last-commit/gabriel-nigro/garbelinifunilaria/main"
-         alt="GitHub last commit (branch)">
+         alt="GitHub last commit (branch)" />
+    </a>
     <a href="https://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"
-         alt="PRs Welcome">
+         alt="PRs Welcome" />
+    </a>
 </p>
 
 <p align="center">
     <a href="https://codeclimate.com/github/gabriel-nigro/garbelinifunilaria/maintainability">
     <img src="https://api.codeclimate.com/v1/badges/f9f648cb4f72bbde2bb1/maintainability"
-         alt="Maintainability">
+         alt="Maintainability" />
+    </a>
     <a href="https://codeclimate.com/github/gabriel-nigro/garbelinifunilaria/test_coverage">
     <img src="https://api.codeclimate.com/v1/badges/f9f648cb4f72bbde2bb1/test_coverage"
-         alt="Test Coverage">
+         alt="Test Coverage" />
+    </a>
     <a href="https://snyk.io/test/github/gabriel-nigro/garbelinifunilaria">
     <img src="https://snyk.io/test/github/gabriel-nigro/garbelinifunilaria/badge.svg"
-         alt="Known Vulnerabilities">
+         alt="Known Vulnerabilities" />
+    </a>
     <a href="http://commitizen.github.io/cz-cli/">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"
-         alt="Commitizen friendly">
+         alt="Commitizen friendly" />
     </a>
 </p>
 
